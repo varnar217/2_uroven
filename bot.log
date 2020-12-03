@@ -1,0 +1,505 @@
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 70, in get_plane
+    constellation =  ephem.constellation(mars)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 25, in get_plane
+    mars=ephem.Mars(a)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 73, in get_plane
+    update.message.reply_text((ephem.constellation(mars)))
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 71, in get_plane
+    epherrr=ephem.constellation(mars)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 71, in get_plane
+    epherrr=ephem.constellation(mars)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 16, in get_plane
+    user_text = str(update.message.text)
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 71, in get_plane
+    epherrr=mars.constellation(a)
+AttributeError: 'Sun' object has no attribute 'constellation'
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 71, in get_plane
+    epherrr=constellation(mars)
+UnboundLocalError: local variable 'constellation' referenced before assignment
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun(a)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun(a)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun()
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun()
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun()
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars=ephem.Sun()
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 68, in get_plane
+    mars1=ephem.Sun()
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 56, in get_plane
+    mars=ephem.Neptune(a)
+NameError: name 'ephem' is not defined
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 16, in get_plane
+    user_text = str(update.message.text)
+AttributeError: 'NoneType' object has no attribute 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 25, in get_plane
+    mars=ephem.Mars(a)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/vartan/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 61, in get_plane
+    mars=ephem.Pluto(a)
+NameError: name 'ephem' is not defined
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Р‘РѕС‚ СЃС‚Р°СЂС‚РѕРІР°Р»
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 44, in get_plane
+    if user_text_2[1]== 'Mars':
+NameError: name 'user_text_2' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 33, in wordcount_to_me
+    j=j+1
+UnboundLocalError: local variable 'j' referenced before assignment
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 26, in wordcount_to_me
+    if numbrt_text_2[i].isnumeric()==False:
+UnboundLocalError: local variable 'i' referenced before assignment
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 27, in wordcount_to_me
+    if numbrt_text_2[i].isnumeric()==False:
+UnboundLocalError: local variable 'i' referenced before assignment
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 52, in next_full_moon_to_me
+    ephe.next_full_moon(user_text_4)
+NameError: name 'user_text_4' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 51, in next_full_moon_to_me
+    user_text_4=user_text_3.replace('-','/')
+AttributeError: 'list' object has no attribute 'replace'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 52, in next_full_moon_to_me
+    user_text_4=user_text_3.replace('-','/')
+AttributeError: 'list' object has no attribute 'replace'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 57, in next_full_moon_to_me
+    data_1=ephe.Data(user_text_4)
+AttributeError: module 'ephem' has no attribute 'Data'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 57, in next_full_moon_to_me
+    data_1=ephe.Data(user_text_4)
+AttributeError: module 'ephem' has no attribute 'Data'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\dispatcher.py", line 432, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\vartan\AppData\Local\Programs\Python\Python38\lib\site-packages\telegram\ext\handler.py", line 156, in handle_update
+    return self.callback(update, context)
+  File "bot.py", line 59, in next_full_moon_to_me
+    data_1=ephe.Data(user_text_4)
+AttributeError: module 'ephem' has no attribute 'Data'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:Бот стартовал
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
